@@ -18,7 +18,7 @@ class ProjectController extends Controller
 
             //se verifica si el resultado no es un array vacio
             if($projects->isEmpty()) {
-                throw new Exception("Error al Obtener Datos de los Proyectos", 404);
+                throw new Exception("No se econtro ningun proyecto", 404);
             };
     
             return response()->json(['projects' => $projects], 200);  

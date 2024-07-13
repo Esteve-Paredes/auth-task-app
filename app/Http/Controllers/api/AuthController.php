@@ -42,7 +42,7 @@ class AuthController extends Controller
                 throw new Exception("Error al crear el usuario en la base de datos", 400);
             }
 
-            return response()->json(['message' => 'User registered successfully', 'user' => $user], 201);;
+            return response()->json(['message' => 'User registered successfully', 'user' => $user], 201);
         } 
         catch (ValidationException $e)
         {

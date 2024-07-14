@@ -28,7 +28,7 @@ Este proyecto es una API desarrollada en Laravel 11 que permite gestionar usuari
 
 3. Crear Base de datos:
 
-    Crear tu base de datos con un nombre claro
+    Crear tu base de datos con un nombre entendible.
 
 4. Configurar el archivo .env:
 
